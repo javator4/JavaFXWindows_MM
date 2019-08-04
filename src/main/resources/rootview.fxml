@@ -4,9 +4,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:controller="pl.sda.windows.controller.RootController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="70.0" layoutY="188.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="160.0" text="Button1" />
-      <Button layoutX="354.0" layoutY="188.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="160.0" text="Button2" />
+      <Button onAction="#openWindow1" fx:id="button1" layoutX="70.0" layoutY="188.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="160.0" text="Button1" />
+      <Button onAction="#openWindow2" fx:id="button2" layoutX="354.0" layoutY="188.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="160.0" text="Button2" />
    </children>
 </AnchorPane>
